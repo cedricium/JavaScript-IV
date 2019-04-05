@@ -14,7 +14,7 @@ class Person {
 class Instructor extends Person {
   constructor(props) {
     super(props)
-    this.speciality = props.speciality
+    this.specialty = props.specialty
     this.favLanguage = props.favLanguage
     this.catchPhrase = props.catchPhrase
   }
